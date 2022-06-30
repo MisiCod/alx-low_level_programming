@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -g $CFILE > v | echo $CFILE | tr 'c' 'o' | mv v $CFILE 
+gcc -Wall $CFILE > v | echo $CFILE | tr 'c' 'o' | mv v $CFILE 
