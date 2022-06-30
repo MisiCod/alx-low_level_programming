@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -Wall $CFILE -o $(echo $CFILE | tr 'c' 'o')
+cc -c $CFILE -o  $(echo $CFILE | tr 'c' 'o')
