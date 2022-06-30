@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <string.h>
+
 /**
  * main - ENtry point
  *
@@ -8,18 +10,10 @@
  */
 int main(void)
 {
-puts();
+/*Initializing strings*/
+	char str[] = "\"Programming is like building a multilingual puzzle";
+
+/*Writing to stdout*/
+puts(str);
 return (0);
-}
-/**
- * puts - Prints on the current line
- *
- * Description: This is a longer description.
- * Printing a line without using the printf command
- * in C
- * Return: The printed message
- */
-int puts(void)
-{
-print ("\"Programming is like building a multilingual puzzle\n");
 }
