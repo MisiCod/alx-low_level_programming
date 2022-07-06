@@ -2,7 +2,7 @@
 /**
  * alphabet - Function to print alphabet
  *
- * return: Exit program
+ * Return: Exit program
  */
 int alphabet(void)
 {
