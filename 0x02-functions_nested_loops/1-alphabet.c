@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
- * print_alphabet - Function to print alphabet
+ * alphabet - Function to print alphabet
+ *
+ * return: Exit program
  */
 int alphabet(void)
 {
