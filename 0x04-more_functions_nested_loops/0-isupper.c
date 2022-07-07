@@ -1,13 +1,19 @@
+#include <ctype.h>
 #include "main.h"
-
 /**
- * _isdigit - check for a digit
- * @c : character to check
- * Return:0 or 1
+ * _isupper - checks if the character is uppercase
+ * @c:  passed argument
+ *
+ * Return: 1 if uppercase 0 if not
  */
-
-int _isdigit(int c)
+int _isupper(int c)
 {
-	return (c >= 48 && c <= 57);
+	int confirm;
 
+	confirm = (isupper(c));
+	if (confirm != 0)
+	{
+		confirm = 1;
+	}
+	return (confirm);
 }
