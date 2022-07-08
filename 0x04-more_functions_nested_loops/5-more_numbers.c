@@ -1,39 +1,33 @@
 #include "main.h"
-#include <stdio.h>
 /**
- * print_numbers - prints numbers from 0 - 9
- * except 2 and 4
+ * more_numbers - prints numbers from 0 - 14
+ * ten times
  */
 
-int main(void)
+void more_numbers(void)
 {
 	char ones;
 	char tens;
 	int times = 0;
 
-	while (times < 11)
+	while (times < 10)
 	{
 		for (tens = '0' ; tens <= '1' ; tens++)
 		{
 			for (ones = '0' ; ones <= '9' ; ones++)
 			{
-				if (tens == '0')
+				if (tens != '0')
 				{
-					putchar(ones);
+					_putchar(tens);
 				}
-				else
-				{
-					putchar(tens);
-					putchar(ones);
-				}
-				if ( tens == '1' && ones == '4')
+				_putchar(ones);
+				if (tens == '1' && ones == '4')
 				{
 					break;
 				}
 			}
 		}
 		times++;
-			putchar('\n');
+		_putchar('\n');
 	}
-	return(0);
 }
