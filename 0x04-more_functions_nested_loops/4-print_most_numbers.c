@@ -5,7 +5,7 @@
  * except 2 and 4
  */
 
-void print_numbers(void)
+void print_most_numbers(void)
 {
 	char c;
 
@@ -15,7 +15,7 @@ void print_numbers(void)
 		{
 			continue;
 		}
-		_putchar(c);
+		putchar(c);
 	}
-	_putchar('\n');
+	putchar('\n');
 }
