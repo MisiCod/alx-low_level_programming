@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_line - check for a digit
@@ -7,11 +8,17 @@
  */
 void print_line(int n)
 {
-	char line = '_';
+	int times = 0;
 
-	if (n <= 0)
+	while (times <= n)
 	{
-		_putchar('\\' + 'n');
+		if (n == 0)
+		{
+			break;
+		}
+		_putchar('_');
+		times++;
 	}
-	_putchar((line * n) + '\\' + 'n');
+
+	_putchar('\n');
 }
