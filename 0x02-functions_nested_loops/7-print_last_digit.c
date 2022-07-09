@@ -8,10 +8,15 @@
  * Return: end program.
  */
 
-int print_last_digit(int n)
+int print_last_digit(int r)
 {
+	int n;
 
-	int last =(n % 10);
+	if (r < 0)
+		n = -1 * (r % 10);
+	else
+		n = r % 10;
 
-	return(last);
+	_putchar((n % 10) + '0');
+	return (n % 10);
 }
