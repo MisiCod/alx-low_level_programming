@@ -3,7 +3,7 @@
  * print_sign - prints the sign of a number.
  * @n: check number
  *
- * Return: void
+ * Return: Exit program
  */
 
 int print_sign(int n)
@@ -23,4 +23,5 @@ int print_sign(int n)
 		_putchar('-');
 		return (-1);
 	}
+	return (0);
 }
