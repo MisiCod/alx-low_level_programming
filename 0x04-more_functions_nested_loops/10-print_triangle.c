@@ -15,13 +15,13 @@ void print_triangle(int size)
 
 		for (rows = lines; rows < size - 1; rows++)
 		{
-			putchar(' ');
+			_putchar(' ');
 		}
 		for (rows = lines; rows >= col; col++)
 		{
-			putchar('#');
+			_putchar('#');
 		}
-		putchar('\n');
+		_putchar('\n');
 		lines++;
 	}
 }
