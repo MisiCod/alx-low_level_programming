@@ -1,31 +1,21 @@
 #include "main.h"
-#include <stdio.h>
+#include <string.h>
 /**
- * _puts - function that prints a string, followed by a new line
- * @str: passed character pointer
+ * print_rev - function that prints a string,
+ * in reverse, followed by a new line.
  *
- * Return: program exit.
+ * @s: pointer to string
+ *
+ * Return: void.
  */
 
-int main()
-{
-	int l = 0;
-	int i = 0;
-	int str[l];
-	int rev[l];
-	char *s;
-	char *rev_add;
-	char ss[4] = "blue";
 
-	s = &ss[4];
-	l = _strlen(ss[4]);
-	for (i = 0; i <= l; i++)
+void print_rev(char *s)
+{
+	int length = strlen(s);
+
+	for (length; length >= 0 ; length--)
 	{
-		rev[l] = str[i];
-		l--;
-		printf("%d\n", rev[l]);
+		_putchar(s[length]);
 	}
-//	rev_add = &rev[l];
-//	_puts(rev_add);
-	return (0);
 }
