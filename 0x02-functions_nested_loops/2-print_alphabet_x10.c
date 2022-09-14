@@ -9,7 +9,7 @@ int alphabet_ten_times(void)
 	char ch;
 	int i = 0;
 
-	while (i < 10)
+	while (i < 9)
 	{
 		for (ch = 'a' ; ch <= 'z' ; ch++)
 		{
@@ -18,5 +18,4 @@ int alphabet_ten_times(void)
 		_putchar('\n');
 		i++;
 	}
-	return (0);
 }
