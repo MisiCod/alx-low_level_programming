@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * alphabet_ten_times - Function to print alphabet
  *
@@ -13,9 +13,9 @@ int alphabet_ten_times(void)
 	{
 		for (ch = 'a' ; ch <= 'z' ; ch++)
 		{
-			putchar (ch);
+			_putchar (ch);
 		}
-		putchar('\n');
+		_putchar('\n');
 		i++;
 	}
 	return (0);
