@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main"
 /**
  * alphabet_ten_times - Function to print alphabet
  *
