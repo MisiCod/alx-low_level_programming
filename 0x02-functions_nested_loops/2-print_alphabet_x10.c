@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * alphabet_ten_times - Function to print alphabet
+ * print_alphabet_x10 - Function to print alphabet
  *
  * Return: Exit program
  */
-void alphabet_ten_times(void)
+void print_alphabet_x10(void)
 {
 	char ch;
 	int i = 0;
