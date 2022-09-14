@@ -4,7 +4,7 @@
  *
  * Return: Exit program
  */
-int alphabet_ten_times(void)
+void alphabet_ten_times(void)
 {
 	char ch;
 	int i = 0;
