@@ -1,17 +1,16 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * alphabet - Function to print alphabet
  *
  * Return: Exit program
  */
-int alphabet(void)
+void print_alphabet()
 {
 char ch;
 
 for (ch = 'a' ; ch <= 'z' ; ch++)
 {
-putchar (ch);
+_putchar (ch);
 }
-putchar('\n');
-return (0);
+_putchar('\n');
 }
