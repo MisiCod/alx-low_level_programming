@@ -12,7 +12,7 @@ void puts2(char *str)
 	int max = (strlen(str));
 	int i;
 
-	for (i = 0; i < max; i+=2)
+	for (i = 0; i < max; i += 2)
 	{
 		_putchar(str[i]);
 	}
