@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  * puts2 - function that prints a string one after the other
  * , followed by a new line
