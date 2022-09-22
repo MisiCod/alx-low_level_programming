@@ -18,7 +18,7 @@ char *_strcat(char *dest, char *src)
 	{
 		*ptr++ = *src++;
 	}
-	/**null terminate destination string*/
+	/**null to terminate destination string*/
 	*ptr = '\0';
 	/**the destination is returned by standard `strcat()`*/
 	return (dest);
