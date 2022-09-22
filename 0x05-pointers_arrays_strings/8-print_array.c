@@ -11,17 +11,17 @@
  */
 void print_array(int *a, int n)
 {
-	int max = n;
-	int i, *ptr[max];
+	int i;
+	int *ptr[n];
 
-	for (i = 0; i < max; i++)
+	for (i = 0; i < n; i++)
 	{
 		ptr[i] = &a[i];/* assign the address of integer. */
 	}
-	for (i = 0; i < max; i++)
+	for (i = 0; i < n; i++)
 	{
 		printf("%d", *ptr[i]);
-		if (i < max - 1)
+		if (i < n - 1)
 		{
 			_putchar(',');
 		}
